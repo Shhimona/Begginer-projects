@@ -94,17 +94,6 @@ gm.onkeypress(go_left, "a")
 while True:
     gm.update()
 
-    #Game over text
-    if snake.xcor()>290 or snake.xcor() < -290\or snake.ycor()>290 or snake.ycor< -290:
-
-        pen=turtle.Turtle()
-        pen.hideturtle()
-        pen.color("green")
-        pen.penup()
-        pen.goto(0,0)
-        pen.writes("GAME OVER" , align="center", font=("Ariel" , 30, "Bold"))
-
-    break
     
     #Check for a collision with the border
     if Sh.xcor()>290 or Sh.xcor()<-290 or Sh.ycor()>290 or Sh.ycor()<-290:
