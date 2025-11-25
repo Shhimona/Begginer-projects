@@ -157,8 +157,6 @@ while True:
          y = Sh.ycor()
          segments[0].goto(x , y)
 
-    if snake
-
 
     move()
 
